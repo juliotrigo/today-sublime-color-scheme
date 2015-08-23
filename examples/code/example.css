@@ -1,0 +1,33 @@
+/* CSS example */
+
+body > header > h3 {
+    font-family: 'Source Sans Pro', 'PT Sans', 'Lato';
+    top: 20px;
+    right: 20px;
+    font-size: 1.5em;
+    font-weight: normal;
+    text-align: right;
+}
+
+p span.displaynone {
+    display: none;
+}
+
+footer#bottom-bar li p {
+    margin: 0px;
+    padding: 10px 0px 10px 0px;
+    height: 25px;
+}
+
+.column {
+    position: absolute;
+    margin: 0px;
+    padding: 0px;
+}
+
+.window > h1 {
+    margin: 0px;
+    padding: 5px;
+    border-radius: 7px 7px 0px 0px;
+    background-color: #535565;
+}

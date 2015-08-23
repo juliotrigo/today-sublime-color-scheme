@@ -1,0 +1,37 @@
+// Sublime user settings
+
+{
+    "auto_complete_commit_on_tab": true,
+    "bold_folder_labels": true,
+    "color_scheme": "Packages/Today Color Scheme/Today.tmTheme",
+    "font_face": "Ubuntu Mono",
+    "font_size": 18.0,
+    "gutter": true,
+    "highlight_line": true,
+    "highlight_modified_tabs": true,
+    "ignored_packages":
+    [
+        "Vintage"
+    ],
+    "line_numbers": true,
+    "rulers":
+    [
+        72,
+        79
+    ],
+    "scroll_past_end": true,
+    "theme": "Flatland Dark.sublime-theme",
+    "translate_tabs_to_spaces": true,
+    "trim_trailing_white_space_on_save": true
+}
+
+
+
+
+
+
+
+
+
+
+
