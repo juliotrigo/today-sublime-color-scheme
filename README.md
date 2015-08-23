@@ -1,10 +1,12 @@
-# TextMate Tomorrow Theme
-The TextMate version of [Tomorrow Theme](https://github.com/ChrisKempson/Tomorrow-Theme).
+# Today Color Scheme
 
-## Take a look!
-Tomorrow theme variations in shown in TextMate with Ruby code.  
-![Ruby Code in Tomorrow Night](https://github.com/ChrisKempson/TextMate-Tomorrow-Theme/raw/master/Images/Tomorrow-Night.png)
-![Ruby Code in Tomorrow](https://github.com/ChrisKempson/TextMate-Tomorrow-Theme/raw/master/Images/Tomorrow.png)
-![Ruby Code in Tomorrow Night Eighties](https://github.com/ChrisKempson/TextMate-Tomorrow-Theme/raw/master/Images/Tomorrow-Night-Eighties.png)
-![Ruby Code in Tomorrow Night Blue](https://github.com/ChrisKempson/TextMate-Tomorrow-Theme/raw/master/Images/Tomorrow-Night-Blue.png)
-![Ruby Code in Tomorrow Night Bright](https://github.com/ChrisKempson/TextMate-Tomorrow-Theme/raw/master/Images/Tomorrow-Night-Bright.png)
+This color scheme is based on [TextMate Tomorrow Theme](https://github.com/theymaybecoders/sublime-tomorrow-theme), the TextMate version of [Tomorrow Theme](https://github.com/ChrisKempson/Tomorrow-Theme).
+
+## Code examples
+
+![Python Code in Today](https://github.com/juliotrigo/today-sublime-color-scheme/raw/master/examples/images/example_python.png)
+![CSS Code in Today](https://github.com/juliotrigo/today-sublime-color-scheme/raw/master/examples/images/example_css.png)
+![HTML Code in Today](https://github.com/juliotrigo/today-sublime-color-scheme/raw/master/examples/images/example_html.png)
+![SQL Code in Today](https://github.com/juliotrigo/today-sublime-color-scheme/raw/master/examples/images/example_sql.png)
+![JavaScript Code in Today](https://github.com/juliotrigo/today-sublime-color-scheme/raw/master/examples/images/example_javascript.png)
+![JSON Code in Today](https://github.com/juliotrigo/today-sublime-color-scheme/raw/master/examples/images/example_json.png)
