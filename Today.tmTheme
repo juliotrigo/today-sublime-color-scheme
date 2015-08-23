@@ -3,9 +3,11 @@
 <plist version="1.0">
 <dict>
 	<key>comment</key>
-	<string>http://juliotrigo.com</string>
+	<string>https://github.com/juliotrigo/today-sublime-color-scheme</string>
 	<key>name</key>
-	<string>Tomorrow Night - Eighties - juliotrigo</string>
+	<string>Today</string>
+	<key>author</key>
+	<string>Julio Trigo</string>
 	<key>settings</key>
 	<array>
 		<dict>
