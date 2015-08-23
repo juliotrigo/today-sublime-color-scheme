@@ -3,9 +3,9 @@
 <plist version="1.0">
 <dict>
 	<key>comment</key>
-	<string>http://chriskempson.com</string>
+	<string>http://juliotrigo.com</string>
 	<key>name</key>
-	<string>Tomorrow Night - Eighties</string>
+	<string>Tomorrow Night - Eighties - juliotrigo</string>
 	<key>settings</key>
 	<array>
 		<dict>
@@ -25,11 +25,12 @@
 				<string>#515151</string>
 			</dict>
 		</dict>
+
 		<dict>
 			<key>name</key>
-			<string>Comment</string>
+			<string>Comment, Django Template comment</string>
 			<key>scope</key>
-			<string>comment</string>
+			<string>comment, comment.block.django.template</string>
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
@@ -43,21 +44,124 @@
 			<string>string.quoted.double.block.python</string>
 			<key>settings</key>
 			<dict>
+				<key>fontStyle</key>
+				<string>italic</string>
 				<key>foreground</key>
 				<string>#798188</string><!-- #999999 --><!-- Grey bright -->
 			</dict>
 		</dict>
+
+		<!-- Yellow -->
+
 		<dict>
 			<key>name</key>
 			<string>Foreground, Constant</string>
 			<key>scope</key>
-			<string>keyword.operator.class, constant.other, constant.language, source.php.embedded.line</string>
+			<string>keyword.operator.class, constant.other, source.php.embedded.line</string>
 			<key>settings</key>
 			<dict>
 				<key>fontStyle</key>
 				<string></string>
 				<key>foreground</key>
-				<string>#FFCC66</string><!-- #CCCCCC --><!-- Yellow --><!-- TODO -->
+				<string>#FFCC66</string><!-- TODO -->
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>Special Method, Block Level</string>
+			<key>scope</key>
+			<string>keyword.other.special-method, meta.block-level</string>
+			<key>settings</key>
+			<dict>
+				<key>fontStyle</key>
+				<string />
+				<key>foreground</key>
+				<string>#FFCC66</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>Python decorator</string>
+			<key>scope</key>
+			<string>entity.name.function.decorator.python</string>
+			<key>settings</key>
+			<dict>
+				<key>fontStyle</key>
+				<string></string>
+				<key>foreground</key>
+				<string>#FFCC66</string>
+			</dict>
+		</dict>
+
+		<!-- Orange self. -->
+
+		<dict>
+			<key>name</key>
+			<string>Inherited Class, Function Argument, Python Decorator Argument, Variable, String Link, Tag Name</string>
+			<key>scope</key>
+			<string>entity.other.inherited-class, variable.parameter, meta.function.decorator.arguments.python, variable, support.other.variable, string.other.link, entity.name.tag, entity.other.attribute-name, meta.tag, declaration.tag</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#F2777A</string>
+			</dict>
+		</dict>
+
+		<!-- Turquoise -->
+
+		<dict>
+			<key>name</key>
+			<string>Number</string>
+			<key>scope</key>
+			<string>constant.numeric</string>
+			<key>settings</key>
+			<dict>
+				<key>fontStyle</key>
+				<string></string>
+				<key>foreground</key>
+				<string>#66CCCC</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>Type Class</string>
+			<key>scope</key>
+			<string>entity.name.type.class</string>
+			<key>settings</key>
+			<dict>
+				<key>fontStyle</key>
+				<string></string>
+				<key>foreground</key>
+				<string>#66CCCC</string>
+			</dict>
+		</dict>
+
+		<!-- Purple -->
+
+		<dict>
+			<key>name</key>
+			<string>Constant, Tag Attribute, Embedded</string>
+			<key>scope</key>
+			<string>constant.language, support.constant, constant.character, punctuation.section.embedded, keyword.other.unit</string>
+			<key>settings</key>
+			<dict>
+				<key>fontStyle</key>
+				<string>italic</string>
+				<key>foreground</key>
+				<string>#CC99CC</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>Library function</string>
+			<key>scope</key>
+			<string>support.function</string>
+			<key>settings</key>
+			<dict>
+				<key>fontStyle</key>
+				<string>italic</string>
+				<key>foreground</key>
+				<string>#CC99CC</string>
 			</dict>
 		</dict>
 		<dict>
@@ -68,61 +172,14 @@
 			<key>settings</key>
 			<dict>
 				<key>fontStyle</key>
-				<string></string>
+				<string>italic</string>
 				<key>foreground</key>
-				<string>#FFCC66</string><!-- #CC99CC #66CCCC #FFCC66 --><!-- Yellow -->
+				<string>#CC99CC</string>
 			</dict>
 		</dict>
-		<dict>
-			<key>name</key>
-			<string>Library function, Special Method, Block Level</string>
-			<key>scope</key>
-			<string>support.function, keyword.other.special-method, meta.block-level</string>
-			<key>settings</key>
-			<dict>
-				<key>fontStyle</key>
-				<string />
-				<key>foreground</key>
-				<string>#FFCC66</string><!-- Yellow -->
-			</dict>
-		</dict>
-		<dict>
-			<key>name</key>
-			<string>Inherited Class, Function Argument, Python Decorator Argument, Variable, String Link, Tag Name</string>
-			<key>scope</key>
-			<string>entity.other.inherited-class, variable.parameter, meta.function.decorator.arguments.python, variable, support.other.variable, string.other.link, entity.name.tag, entity.other.attribute-name, meta.tag, declaration.tag</string>
-			<key>settings</key>
-			<dict>
-				<key>foreground</key>
-				<string>#F2777A</string><!-- Orange self. -->
-			</dict>
-		</dict>
-		<dict>
-			<key>name</key>
-			<string>Number, Type Class, Python decorator</string>
-			<key>scope</key>
-			<string>constant.numeric, entity.name.type.class, entity.name.function.decorator.python</string>
-			<key>settings</key>
-			<dict>
-				<key>fontStyle</key>
-				<string></string>
-				<key>foreground</key>
-				<string>#66CCCC</string><!-- Turquoise -->
-			</dict>
-		</dict>
-		<dict>
-			<key>name</key>
-			<string>Constant, Tag Attribute, Embedded</string>
-			<key>scope</key>
-			<string>constant.language, support.constant, constant.character, punctuation.section.embedded, keyword.other.unit</string>
-			<key>settings</key>
-			<dict>
-				<key>fontStyle</key>
-				<string></string>
-				<key>foreground</key>
-				<string>#CC99CC</string><!-- Purple --><!-- TODO -->
-			</dict>
-		</dict>
+
+		<!-- Green -->
+
 		<dict>
 			<key>name</key>
 			<string>String, Symbols, Markup Heading</string>
@@ -133,46 +190,99 @@
 				<key>fontStyle</key>
 				<string></string>
 				<key>foreground</key>
-				<string>#99CC99</string><!-- Green -->
+				<string>#99CC99</string>
 			</dict>
 		</dict>
+
+		<!-- Orange -->
+
 		<dict>
 			<key>name</key>
-			<string>Operator, Misc</string>
+			<string>Operator</string>
 			<key>scope</key>
-			<string>keyword.operator, constant.other.color</string>
+			<string>keyword.operator</string>
 			<key>settings</key>
 			<dict>
+				<key>fontStyle</key>
+				<string>bold</string>
 				<key>foreground</key>
-				<string>#F99157</string><!-- #66CCCC --><!-- Orange -->
+				<string>#F99157</string>
 			</dict>
 		</dict>
 		<dict>
 			<key>name</key>
-			<string>Keyword, Storage</string>
+			<string>Misc</string>
 			<key>scope</key>
-			<string>keyword, storage, storage.type, entity.name.tag.css</string>
+			<string>constant.other.color</string>
+			<key>settings</key>
+			<dict>
+				<key>fontStyle</key>
+				<string>bold</string>
+				<key>foreground</key>
+				<string>#F99157</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>Keyword, Keyword Control, Storage</string>
+			<key>scope</key>
+			<string>keyword, keyword.control, storage, entity.name.tag.css</string>
+			<key>settings</key>
+			<dict>
+				<key>fontStyle</key>
+				<string>bold</string>
+				<key>foreground</key>
+				<string>#F99157</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>Storage Type</string>
+			<key>scope</key>
+			<string>storage.type</string>
+			<key>settings</key>
+			<dict>
+				<key>fontStyle</key>
+				<string>bold</string>
+				<key>foreground</key>
+				<string>#F99157</string>
+			</dict>
+		</dict>
+
+		<!-- Blue -->
+
+		<dict>
+			<key>name</key>
+			<string>Function</string>
+			<key>scope</key>
+			<string>entity.name.function</string>
 			<key>settings</key>
 			<dict>
 				<key>fontStyle</key>
 				<string></string>
 				<key>foreground</key>
-				<string>#F99157</string><!-- #CC99CC --><!-- Orange -->
+				<string>#6699CC</string>
 			</dict>
 		</dict>
+
+		<!-- Text -->
+
 		<dict>
 			<key>name</key>
-			<string>Function, Function Call</string>
+			<string>Function Call</string>
 			<key>scope</key>
-			<string>entity.name.function, meta.function-call - punctuation - meta.function-call.arguments</string>
+			<string>meta.function-call - punctuation - meta.function-call.arguments</string>
 			<key>settings</key>
 			<dict>
 				<key>fontStyle</key>
 				<string></string>
 				<key>foreground</key>
-				<string>#6699CC</string><!-- Blue --><!-- TODO -->
+				<string>#CCCCCC</string><!-- TODO -->
 			</dict>
 		</dict>
+
+		<!-- Other -->
+
 		<dict>
 			<key>name</key>
 			<string>Invalid</string>
