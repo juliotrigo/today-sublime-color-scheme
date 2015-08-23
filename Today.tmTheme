@@ -29,74 +29,111 @@
 			<key>name</key>
 			<string>Comment</string>
 			<key>scope</key>
-			<string>comment, string.quoted.double.block.python</string>
+			<string>comment</string>
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
-				<string>#999999</string>
+				<string>#5F5A60</string><!-- Grey dark -->
 			</dict>
 		</dict>
 		<dict>
 			<key>name</key>
-			<string>Foreground</string>
+			<string>Python comment block</string>
 			<key>scope</key>
-			<string>keyword.operator.class, constant.other, source.php.embedded.line</string>
+			<string>string.quoted.double.block.python</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#798188</string><!-- #999999 --><!-- Grey bright -->
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>Foreground, Constant</string>
+			<key>scope</key>
+			<string>keyword.operator.class, constant.other, constant.language, source.php.embedded.line</string>
 			<key>settings</key>
 			<dict>
 				<key>fontStyle</key>
 				<string></string>
 				<key>foreground</key>
-				<string>#CCCCCC</string>
-			</dict>
-		</dict>
-		<dict>
-			<key>name</key>
-			<string>Variable, String Link, Tag Name</string>
-			<key>scope</key>
-			<string>variable, support.other.variable, string.other.link, entity.name.tag, entity.other.attribute-name, meta.tag, declaration.tag</string>
-			<key>settings</key>
-			<dict>
-				<key>foreground</key>
-				<string>#F2777A</string>
-			</dict>
-		</dict>
-		<dict>
-			<key>name</key>
-			<string>Number, Constant, Function Argument, Tag Attribute, Embedded</string>
-			<key>scope</key>
-			<string>constant.numeric, constant.language, support.constant, constant.character, variable.parameter, punctuation.section.embedded, keyword.other.unit</string>
-			<key>settings</key>
-			<dict>
-				<key>fontStyle</key>
-				<string></string>
-				<key>foreground</key>
-				<string>#F99157</string>
+				<string>#FFCC66</string><!-- #CCCCCC --><!-- Yellow --><!-- TODO -->
 			</dict>
 		</dict>
 		<dict>
 			<key>name</key>
 			<string>Class, Support</string>
 			<key>scope</key>
-			<string>entity.name.class, entity.name.type.class, support.type, support.class</string>
+			<string>entity.name.class, support.type, support.class</string>
 			<key>settings</key>
 			<dict>
 				<key>fontStyle</key>
 				<string></string>
 				<key>foreground</key>
-				<string>#FFCC66</string>
+				<string>#FFCC66</string><!-- #CC99CC #66CCCC #FFCC66 --><!-- Yellow -->
 			</dict>
 		</dict>
 		<dict>
 			<key>name</key>
-			<string>String, Symbols, Inherited Class, Markup Heading</string>
+			<string>Library function, Special Method, Block Level</string>
 			<key>scope</key>
-			<string>string, constant.other.symbol, entity.other.inherited-class, markup.heading</string>
+			<string>support.function, keyword.other.special-method, meta.block-level</string>
+			<key>settings</key>
+			<dict>
+				<key>fontStyle</key>
+				<string />
+				<key>foreground</key>
+				<string>#FFCC66</string><!-- Yellow -->
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>Inherited Class, Function Argument, Python Decorator Argument, Variable, String Link, Tag Name</string>
+			<key>scope</key>
+			<string>entity.other.inherited-class, variable.parameter, meta.function.decorator.arguments.python, variable, support.other.variable, string.other.link, entity.name.tag, entity.other.attribute-name, meta.tag, declaration.tag</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#F2777A</string><!-- Orange self. -->
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>Number, Type Class, Python decorator</string>
+			<key>scope</key>
+			<string>constant.numeric, entity.name.type.class, entity.name.function.decorator.python</string>
 			<key>settings</key>
 			<dict>
 				<key>fontStyle</key>
 				<string></string>
 				<key>foreground</key>
-				<string>#99CC99</string>
+				<string>#66CCCC</string><!-- Turquoise -->
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>Constant, Tag Attribute, Embedded</string>
+			<key>scope</key>
+			<string>constant.language, support.constant, constant.character, punctuation.section.embedded, keyword.other.unit</string>
+			<key>settings</key>
+			<dict>
+				<key>fontStyle</key>
+				<string></string>
+				<key>foreground</key>
+				<string>#CC99CC</string><!-- Purple --><!-- TODO -->
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>String, Symbols, Markup Heading</string>
+			<key>scope</key>
+			<string>string, constant.other.symbol, markup.heading</string>
+			<key>settings</key>
+			<dict>
+				<key>fontStyle</key>
+				<string></string>
+				<key>foreground</key>
+				<string>#99CC99</string><!-- Green -->
 			</dict>
 		</dict>
 		<dict>
@@ -107,20 +144,7 @@
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
-				<string>#66CCCC</string>
-			</dict>
-		</dict>
-		<dict>
-			<key>name</key>
-			<string>Function, Special Method, Block Level</string>
-			<key>scope</key>
-			<string>entity.name.function, meta.function-call, support.function, keyword.other.special-method, meta.block-level</string>
-			<key>settings</key>
-			<dict>
-				<key>fontStyle</key>
-				<string></string>
-				<key>foreground</key>
-				<string>#6699CC</string>
+				<string>#F99157</string><!-- #66CCCC --><!-- Orange -->
 			</dict>
 		</dict>
 		<dict>
@@ -133,7 +157,20 @@
 				<key>fontStyle</key>
 				<string></string>
 				<key>foreground</key>
-				<string>#CC99CC</string>
+				<string>#F99157</string><!-- #CC99CC --><!-- Orange -->
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>Function, Function Call</string>
+			<key>scope</key>
+			<string>entity.name.function, meta.function-call - punctuation - meta.function-call.arguments</string>
+			<key>settings</key>
+			<dict>
+				<key>fontStyle</key>
+				<string></string>
+				<key>foreground</key>
+				<string>#6699CC</string><!-- Blue --><!-- TODO -->
 			</dict>
 		</dict>
 		<dict>
