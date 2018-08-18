@@ -109,6 +109,19 @@
 				<string>#FFCC66</string>
 			</dict>
 		</dict>
+		<dict>
+			<key>name</key>
+			<string>Class</string>
+			<key>scope</key>
+			<string>entity.name.class</string>
+			<key>settings</key>
+			<dict>
+				<key>fontStyle</key>
+				<string>italic</string>
+				<key>foreground</key>
+				<string>#FFCC66</string>
+			</dict>
+		</dict>
 
 		<!-- Orange self. -->
 
@@ -127,7 +140,7 @@
 			<key>name</key>
 			<string>Variable</string>
 			<key>scope</key>
-			<string>variable</string>
+			<string>variable.language</string>
 			<key>settings</key>
 			<dict>
 				<key>fontStyle</key>
@@ -249,19 +262,6 @@
 			<string>Support Class</string>
 			<key>scope</key>
 			<string>support.class</string>
-			<key>settings</key>
-			<dict>
-				<key>fontStyle</key>
-				<string>italic</string>
-				<key>foreground</key>
-				<string>#CC99CC</string>
-			</dict>
-		</dict>
-		<dict>
-			<key>name</key>
-			<string>Class</string>
-			<key>scope</key>
-			<string>entity.name.class</string>
 			<key>settings</key>
 			<dict>
 				<key>fontStyle</key>
